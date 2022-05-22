@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "station_name": "Putil FM",
+    "freq": 66.6,
+    "img": "https://www.dreadcentral.com/wp-content/uploads/radio666.jpg"
+  },
+  {
+    "id": 2,
+    "station_name": "Dribbble FM",
+    "freq": 101.2,
+    "img": "https://cdn-radiotime-logos.tunein.com/s149526d.png"
+  },
+  {
+    "id": 3,
+    "station_name": "Doge FM",
+    "freq": 99.4,
+    "img": "https://cdn-radiotime-logos.tunein.com/s3130d.png"
+  },
+  {
+    "id": 4,
+    "station_name": "Ballads FM",
+    "freq": 87.1,
+    "img": "https://pbs.twimg.com/profile_images/883160392733790208/GU4FUHUw_400x400.jpg"
+  },
+  {
+    "id": 5,
+    "station_name": "Maximum FM",
+    "freq": 142.2,
+    "img": "https://img.freepik.com/free-vector/radio-logo_9850-254.jpg"
+  }
+]
