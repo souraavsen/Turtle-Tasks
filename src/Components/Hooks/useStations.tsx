@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import { Station } from "../../types";
 
 const useStations = () => {
   const [stations, setStations] = useState<any>([]);
@@ -14,9 +13,7 @@ const useStations = () => {
       });
   }, []);
 
-  // returning th stations state in a array to access from other components
   return [stations];
 };
 
-// exporting so that other components can import
 export default useStations;

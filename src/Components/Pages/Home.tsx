@@ -1,10 +1,10 @@
-import React, { useState } from "react";
-import styles from "./Home.module.css";
+import { useState } from "react";
 import backArrow from "../../assets/backArrow.png";
 import switchIcon from "../../assets/switch.png";
-import StationDetails from "./StationDetails";
-import useStations from "../Hooks/useStations";
 import { Station } from "../../types";
+import useStations from "../Hooks/useStations";
+import styles from "./Home.module.css";
+import StationDetails from "./StationDetails";
 
 const Home = () => {
   const [stations]: any = useStations();

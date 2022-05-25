@@ -33,6 +33,7 @@ const StationDetails = (props: {
             : styles.station_info
         }
       >
+        {/* showing stations details according to active station */}
         {props.selected === props.station.station_name && (
           <img className={styles.station_operation} src={minus} alt='' />
         )}
